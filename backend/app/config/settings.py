@@ -24,6 +24,7 @@ class Settings(BaseSettings):
 
     # CORS
     cors_origins: Union[List[str], str] = [
+        "*",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
     ]
